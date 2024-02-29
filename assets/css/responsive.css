@@ -1,0 +1,38 @@
+@media(max-width: 740px){
+    /* dùng cho float */
+    .s-col-full{
+        width: 100% !important;
+    }
+    .s-mt8{
+        margin-top: 8px !important;
+    }
+    .full-width{
+        width: 100% !important;
+    }
+    #bar{
+        display: block;
+    }
+    #bar >li{
+        display: block;
+    }
+    #bar >li:first-child{
+        display: inline-block;
+    }
+    #header .mobile-menu{
+        display: block;
+    }
+    #content .member-mobile{
+        margin-top: 15px;
+        width: 100%;
+    }
+    /* dùng cho flexbox */
+    #content .match-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-form{
+        margin-top: 16px;
+    }
+    
+}
+   
